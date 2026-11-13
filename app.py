@@ -100,10 +100,14 @@ st.markdown(
 # 3 Dashboard Cards
 col1, col2, col3 = st.columns(3)
 
-# आपके तीनों ऐप्स के लिंक्स
-WAREHOUSE_URL = "https://warehouse-app.streamlit.app"
-AGING_URL = "https://sector3-aging-dashboard.streamlit.app"
-BOOKING_MIS_URL = "https://daily-booking-mis-dashboard.streamlit.app"
+# आपके सही और फाइनल लाइव लिंक्स:
+WAREHOUSE_URL = (
+    "https://warehouse-app-46shkhfn346jukupnwptwz.streamlit.app/"
+)
+AGING_URL = "https://sector3-aging-dashboard.streamlit.app/"
+BOOKING_MIS_URL = (
+    "https://daily-booking-mis-dashboard-lxbtfksce7clojwua29bla.streamlit.app/"
+)
 
 with col1:
   st.markdown(
